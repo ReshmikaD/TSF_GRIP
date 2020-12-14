@@ -1,5 +1,3 @@
 # TSF_GRIP
 
-Data Science and Business Analytics Internship Tasks
-
-This repository consists of some tasks done during my internship at The Sparks Foundation.
+This repository consists of some tasks completed during my Data Science and Business Analytics Internship at The Sparks Foundation.
