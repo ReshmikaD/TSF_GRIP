@@ -1,42 +1,34 @@
-# Physical-Distancing-Tracker
+# Face-Mask-Detector
 
-# Description
+A real-time face mask detector using Tensorflow and OpenCV
 
-In addition to everyday steps to prevent COVID-19, maintaining physical distance between one another is one of the
-best tools to avoid being exposed to this virus and slowing its spread across the globe.
-But, surveillance for social distancing in public places is a challenging task.
+# Introduction 
 
-This project will detect if people are following physical/social distancing and will send an alert if not. 
+This REAL TIME FACE MASK DETECTOR uses live stream camera  to capture input and helps to classify if a person is wearing a face mask or not.
+The objective of this project is to train a deep convolutional neural network on images collected from the data to check whether a person is using a mask.
 
-# Real-Time Object Detection
+# Classification Accuracy
 
-The module is built using pretrained YOLO model on COCO dataset with Opencv.
-YOLOv3 is the latest variant of a popular object detection algorithm YOLO – You Only Look Once.
+We can see that our model has an accuracy of 95.65% to predict mask or without mask from faces.
 
-The run the algorithm we need three files:
+# Required Libraries:
 
-1. Weight file: yolov3.weights
+    Keras
+    OpenCV
+    Numpy
+    Tensorflow
+    imutils
+    Matplotlib
+    Scikit-Learn
 
-2. Cfg file: yolov3.cfg
+# Demo:
 
-3. Name files: coco.names
+![image](https://user-images.githubusercontent.com/54103472/93887010-c16b8600-fd03-11ea-841c-c04c7244230c.png)
 
-To download the YOLOv3 weights you can use these commands in command line:
+![image](https://user-images.githubusercontent.com/54103472/93887032-c8929400-fd03-11ea-8df7-0b9fb6e0c2fd.png)
 
-    pip install wget
-    
-    wget https://pjreddie.com/media/files/yolov3.weights
+# Acknowledgement:
 
-# Model
+Dataset Credits: [Prajna Bhandary](https://github.com/prajnasb/observations)
 
-1. Clone this repository
-
-2. Install the required libraries
-
-3. Download yolov3.weights :  https://pjreddie.com/media/files/yolov3.weights
-
-4. Run SocialDistanceTracker.ipynb file in Jupyter Notebook
-
-# Output Sample
-
-![image](https://user-images.githubusercontent.com/54103472/82057150-8e274380-96e0-11ea-9e12-985428bf9dc1.png)
+Dataset can be obtained from [here](https://github.com/prajnasb/observations/tree/master/experiements/data).
